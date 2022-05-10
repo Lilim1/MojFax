@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.slideshow.SlideshowFragment"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/promjena"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/button_rounded2"
+        android:text="Promjeni ime ili sliku"
+        android:textColor="#FFFFFF"
+        android:onClick="promjeniime"
+        tools:layout_editor_absoluteX="122dp"
+        tools:layout_editor_absoluteY="528dp"
+    />
+
+    <Button
+        android:id="@+id/promjena2"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button_rounded2"
+        android:text="Promjeni šifru"
+        android:onClick="promjenasifre"
+        android:textColor="#FFFFFF"
+        tools:layout_editor_absoluteX="122dp"
+        tools:layout_editor_absoluteY="528dp" />
+
+    <Button
+        android:id="@+id/promjejena"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button_rounded2"
+        android:onClick="promjenafax"
+        android:text="Promjeni odabir fakulteta"
+        android:textColor="#FFFFFF"
+        tools:layout_editor_absoluteX="122dp"
+        tools:layout_editor_absoluteY="528dp" />
+
+</LinearLayout>

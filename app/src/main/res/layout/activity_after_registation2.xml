@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".AfterRegistation2">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:text="Da bi nastavili dalje morate se verifikovati. Verifikacijski mejl možete pronaći u vašem inboxu. Ako niste dobili mejl, pritisnite na dugme ispod. Nakon verifikacije morate se ponovo ulogovati"
+        android:textSize="18sp">
+
+    </TextView>
+
+    <ProgressBar
+        android:id="@+id/progressBar8"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="120dp" />
+
+    <Button
+        android:id="@+id/buttonver"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="150dp"
+        android:background="@drawable/tipka"
+        android:text="Posalji verifikacijski mejl"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/ponpr"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/tipka"
+        android:text="Prijavi se ponovo"
+        android:textColor="#FFFFFF" />
+
+</LinearLayout>

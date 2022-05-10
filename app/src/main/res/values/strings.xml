@@ -1,0 +1,1828 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">MojFax</string>
+    <string name="sign_out">Sign Out</string>
+
+    <string-array name="univerziteti">
+        <item>Univerzitet u Sarajevu</item>
+        <item>Internacionalni Univerzitet u Sarajevu</item>
+        <item>Internacionalni Burč Univerzitet</item>
+        <item>Univerzitet u Istočnom Sarajevu</item>
+        <item>Univerzitet u Banja Luci</item>
+        <item>Univerzitet za poslovne studije Banja Luka</item>
+        <item>Visoka Škola "Banja Luka College"</item>
+        <item>Nezavisni Univerzitet Banja Luka</item>
+        <item>Komunikološki koledž "Kapa Fi" Banja Luka</item>
+        <item>Univerzitet Sinergije Bijeljina</item>
+        <item>SSST</item>
+        <item>Visoka Škola za uslužni biznis Istočno Sarajevo</item>
+        <item>Univerzitet u Zenici</item>
+        <item>Univerzitet Džemal Bijedić</item>
+        <item>Univerzitet u Tuzli</item>
+        <item>Sveučilište u Mostaru</item>
+        <item>Visoka škola "Logos centar" u Mostaru</item>
+        <item>Univerzitet u Bihaću</item>
+        <item>Univerzitet u Travniku</item>
+        <item>Internacionalni Univerzitet Travnik</item>
+        <item>Visoka škola "CEPS"</item>
+        <item>Univerzitet Vitez</item>
+        <item>Panevropski univerzitet Apeiron</item>
+        <item>Visoka škola za primjenjene i pravne nauke "Prometej"</item>
+        <item>Sveučilište Hercegovina</item>
+        <item>Univerzitet za poslovni inžinjering i menadžment Banja Luka</item>
+        <item>Visoka poslovno tehnička škola Doboj</item>
+        <item>Univerzitet modernih znanosti-CKM Mostar</item>
+        <item>Internacionalna poslovno-informaciona akademija Tuzla</item>
+
+
+    </string-array>
+
+
+    <string-array name="fakulteti">
+
+        <item>Akademija likovnih umjetnosti</item>
+        <item>Akademija scenskih umjetnosti</item>
+        <item>Arhitektonski fakultet</item>
+        <item>Ekonomski fakultet</item>
+        <item>Elektrotehnički fakultet</item>
+        <item>Fakultet islamskih nauka</item>
+        <item>Fakultet za kriminalistiku, kriminologiju i sigurnosne studije</item>
+        <item>Fakultet političkih nauka</item>
+        <item>Fakultet sporta i tjelesnih odgoja</item>
+        <item>Fakultet za saobraćaj i komunikacije</item>
+        <item>Farmaceutski fakultet</item>
+        <item>Filozofski fakultet</item>
+        <item>Građevinski fakultet</item>
+        <item>Masinški fakultet</item>
+        <item>Medicinski fakultet</item>
+        <item>Muzička akademija</item>
+        <item>Pedagoški fakultet</item>
+        <item>Poljoprivredno-prehrambeni fakultet</item>
+        <item>Pravni fakultet</item>
+        <item>Prirodno-matematički fakultet</item>
+        <item>Stomatološki fakultet</item>
+        <item>Šumarski fakultet</item>
+        <item>Veterinarski fakultet</item>
+        <item>Fakultet zdravstvenih studija</item>
+        <item>BETA TESTER</item>
+
+    </string-array>
+
+    <string-array name="fakultetiIUS">
+        <item>FASS</item>
+        <item>FBA</item>
+        <item>FENS</item>
+        <item>FLW</item>
+        <item>FEDU</item>
+    </string-array>
+
+    <string-array name="iusFASS">
+        <item>Visual Arts and Visual Communications Design</item>
+        <item>Social and Political Sciences</item>
+        <item>Psychology</item>
+        <item>English Language and Literature</item>
+    </string-array>
+
+    <string-array name="iusFBA">
+        <item>Economics</item>
+        <item>Management</item>
+
+        <item>International and Public Relations</item>
+        <item>International Business and Finance</item>
+
+
+    </string-array>
+
+    <string-array name="iusfens">
+        <item>Genetics and Bioengineering</item>
+        <item>Electrical and Electronics Engineering</item>
+        <item>Computer Science and Engineering</item>
+        <item>Industrial Engineering</item>
+        <item>Mechanical Engineering</item>
+        <item>Architecture</item>
+        <item>Software Engineering</item>
+    </string-array>
+
+    <string-array name="iusFlw">
+        <item>Jedinstveni studij</item>
+    </string-array>
+
+    <string-array name="iusFEDU">
+        <item>Computer education and Instructional Technology</item>
+        <item>Turkish Language and Literature Teaching</item>
+        <item>English Language and Literature Teaching</item>
+    </string-array>
+
+
+    <string-array name="fakultetiBURCH">
+        <item>FENS</item>
+        <item>FESS</item>
+        <item>FEH</item>
+    </string-array>
+
+    <string-array name="burchfens">
+        <item>Information Technologies</item>
+        <item>Genetics and Bioengineering</item>
+        <item>Electrical and Electronics Engineering</item>
+        <item>Architecture</item>
+        <item>Civil Engineering</item>
+    </string-array>
+
+    <string-array name="burchFess">
+        <item>Management</item>
+        <item>International Relations and European Studies</item>
+    </string-array>
+
+    <string-array name="burchFEH">
+        <item>English Language and Literature</item>
+        <item>Graphic Design and Multimedia</item>
+        <item>Digital Communication and Public Relations</item>
+
+
+    </string-array>
+
+
+    <string-array name="fakultetISarajevo">
+        <item>Akademija likovnih umjetnosti</item>
+        <item>Pravoslavni bogoslovski fakultet</item>
+        <item>Ekonomski fakultet - Pale</item>
+        <item>Ekonomski fakultet - Brčko</item>
+        <item>Elektrotehnički fakultet</item>
+        <item>Filozofski fakultet</item>
+        <item>Fakultet fizičkog vaspitanja i sporta</item>
+        <item>Fakultet poslovne ekonomije</item>
+        <item>Fakultet za proizvodnju i menadžment</item>
+        <item>Mašinski fakultet</item>
+        <item>Muzička akademija</item>
+        <item>Medicinski fakutet</item>
+        <item>Pedagoški fakultet</item>
+        <item>Poljoprivredni fakultet</item>
+        <item>Pravni fakultet</item>
+        <item>Saobraćajni fakultet</item>
+        <item>Tehnološki fakultet</item>
+    </string-array>
+
+    <string-array name="iSarajevoAkademijalik">
+        <item>Odsjek slikarstvo</item>
+        <item>Odsjek vajarstvo</item>
+        <item>Odsjek grafika</item>
+        <item>Odsjek grafički dizajn</item>
+    </string-array>
+
+    <string-array name="iSarajevoPravoslavni">
+        <item>Pravoslabna teologija</item>
+        <item>Praktični smjer</item>
+        <item>Bogoslovno-pastirski smjer</item>
+        <item>Crkvena umjetnost i slikarstvo</item>
+        <item>Crkveno pravo i administracija</item>
+        <item>Opšti smjer</item>
+    </string-array>
+
+
+    <string-array name="isarajevoekonomijapale">
+        <item>Ekonomija</item>
+        <item>Turizam i hotelijerstvo</item>
+        <item>Finansije</item>
+        <item>Poslovno upravljanje</item>
+        <item>Makroekonomija, reforme i biznis</item>
+        <item>Ekonomski razvoj BiH</item>
+        <item>Kvantitivna ekonomija</item>
+    </string-array>
+
+    <string-array name="isarajevoekonomijabrcko">
+        <item>Smjer menadžment</item>
+        <item>Smjer računovodstvo i finansije</item>
+    </string-array>
+
+
+    <string-array name="isarajevoElektro">
+        <item>Elektroenergetika</item>
+        <item>Automatika i elektronika</item>
+        <item>Računarstvo i informatika</item>
+    </string-array>
+
+    <string-array name="iSarajevoFilozofija">
+        <item>Filozofija</item>
+        <item>Sociologija</item>
+        <item>Novinarstvo</item>
+        <item>Politikologija i međunarodni odnosi</item>
+        <item>Istorija</item>
+        <item>Pedagogija</item>
+        <item>Psihologija</item>
+        <item>Srpski jezik i književnost</item>
+        <item>Ruski jezik i književnost</item>
+        <item>Engleski jezik i književnost</item>
+        <item>Njemački jezik i književnost</item>
+        <item>Opća književnost i teatrologija</item>
+        <item>Bibliotekarstvo i srpski jezik i književnost</item>
+        <item>Matematika i računarstvo</item>
+        <item>Matematika i fizika</item>
+        <item>Razredna nastava</item>
+        <item>Geografija</item>
+        <item>Turistička geografija</item>
+    </string-array>
+
+    <string-array name="iSarajevoSport">
+        <item>Fizičko vaspitanje</item>
+        <item>Sport</item>
+        <item>Sportska rekreacija</item>
+    </string-array>
+
+    <string-array name="isarajevoposekonomija">
+        <item>Spoljna trgovina</item>
+        <item>Finansije, bankarstvo i osiguranje</item>
+        <item>Poslovna informatika</item>
+
+        <item>Međunarodna ekonomija</item>
+        <item>Digitalna ekonomija</item>
+    </string-array>
+
+    <string-array name="isarajevoproizvodnjamenadz">
+        <item>Industrijski menadžment</item>
+        <item>Industrijsko inžinjerstvo za energetiku</item>
+    </string-array>
+
+    <string-array name="isarajevoMasinski">
+        <item>Mašinstvo</item>
+        <item>Mehanička tehnologija obrade drveta</item>
+        <item>Održiva energija i zaštita životne sredine</item>
+    </string-array>
+
+    <string-array name="isarajevoMuzicka">
+        <item>Klavir</item>
+        <item>Harmonika</item>
+        <item>Gitara</item>
+        <item>Flauta</item>
+        <item>Violina</item>
+        <item>Solo pjevanje</item>
+        <item>Opšta muzička teorija</item>
+        <item>Kompozicija</item>
+        <item>Crkvena muzika i pojanje</item>
+    </string-array>
+
+    <string-array name="isarajevomedicina">
+        <item>Medicina</item>
+        <item>Stomatologija</item>
+        <item>Zdravstvena njega</item>
+        <item>Specijalna edukacija i rehabilitacija</item>
+    </string-array>
+
+
+    <string-array name="isarajevopedagoski">
+        <item>Razredna nastava</item>
+        <item>Predškolsko obrazovanje</item>
+        <item>Tehničko obrazovanje i informatika</item>
+    </string-array>
+
+    <string-array name="isarajevopoljoprivredni">
+        <item>Opšti smjer</item>
+        <item>Biljna proizvodnja</item>
+        <item>Stočarstvo</item>
+    </string-array>
+
+    <string-array name="isarajevopravo">
+        <item>Jedinstveni studij</item>
+    </string-array>
+
+
+    <string-array name="isarajevosaobracajni">
+        <item>Druski i gradski saobraćaj</item>
+        <item>Željeznički saobraćaj</item>
+        <item>Logistika</item>
+        <item>Telekomunikacije i poštanski saobraćaj</item>
+        <item>Saobraćajnice</item>
+        <item>Informatika u saobraćaju</item>
+        <item>Motorna vozila</item>
+        <item>Vazdušni saobraćaj</item>
+    </string-array>
+
+
+    <string-array name="isarajevotehno">
+        <item>Hemijsko procesno inžinjerstvo i tehnologija</item>
+        <item>Inžinjerstvo zaštite životne sredine</item>
+        <item>Prehrambena tehnologija</item>
+        <item>Zaštita na radu i zaštita od požara</item>
+        <item>Biologija</item>
+        <item>Hemija</item>
+    </string-array>
+
+
+    <string-array name="fakultetiBL">
+        <item>Akademija umjetnosti</item>
+        <item>Arhitektonski-građevinsko-geodetsk fakultet</item>
+        <item>Ekonomski fakultet</item>
+        <item>Elektrotehnički fakultet</item>
+        <item>Mašinski fakultet</item>
+        <item>Medicinski fakutet</item>
+        <item>Poljoprivredni fakultet</item>
+        <item>Pravni fakultet</item>
+        <item>Prirodno-matematički fakultet</item>
+        <item>Rudarski fakultet</item>
+        <item>Tehnološki fakultet</item>
+        <item>Fakultet bezbjednosnih nauka</item>
+        <item>Fakultet fizičkog vaspitanja i sporta</item>
+        <item>Filološki fakultet</item>
+        <item>Filozofski fakultet</item>
+        <item>Šumarski fakultet</item>
+
+    </string-array>
+
+
+    <string-array name="BLAkademijaUmjetnosti">
+        <item>Kompozicija</item>
+        <item>Solo pjevanje</item>
+        <item>Dirigovanje</item>
+        <item>Klavir</item>
+        <item>Gitara</item>
+        <item>Gudački instrumenti</item>
+        <item>Duvački instrumenti</item>
+        <item>Etnomuzikologija</item>
+        <item>Muzička terija i pedagogija</item>
+        <item>Kamerna muzika</item>
+        <item>Slikarstvo</item>
+        <item>Grafika</item>
+        <item>Grafički dizajn</item>
+        <item>Gluma</item>
+        <item>Pozorišna režija</item>
+        <item>Dramaturgija</item>
+        <item>Filmski i televizijski smjer</item>
+        <item>Animirani film</item>
+        <item>Produkcija</item>
+        <item>Filmski i televizijski smjer</item>
+        <item>Gluma</item>
+        <item>Pozorišna režija</item>
+        <item>Dramaturgija</item>
+    </string-array>
+
+    <string-array name="BLarhitektonskogr">
+        <item>Arhitektura</item>
+        <item>Građevinarstvo</item>
+        <item>Geodezija</item>
+    </string-array>
+
+
+    <string-array name="BLekonomija">
+
+        <item>Finansije, bankarstvo i osiguranje</item>
+        <item>Međunarodna ekonomija</item>
+        <item>Poslovna ekonomija</item>
+        <item>Kvantitativne analize</item>
+
+    </string-array>
+
+
+    <string-array name="BLelektrotehnika">
+
+        <item>Računarstvo i informatika</item>
+        <item>Elektronika i telekomunikacije</item>
+        <item>Elektroenergetski i industrijski sistemi</item>
+        <item>Digitalno emitovanje i širokopojasne tehnologije</item>
+
+    </string-array>
+
+
+    <string-array name="BLmasinski">
+        <item>Proizvodno mašinstvo</item>
+        <item>Energetsko i saobraćajno mašinstvo</item>
+        <item>Mehatronika</item>
+        <item>Industrijsko inženjerstvo</item>
+        <item>Zaštita na radu</item>
+
+
+    </string-array>
+
+
+    <string-array name="BLmedicina">
+
+        <item>Medicina</item>
+        <item>Dentalna medicina</item>
+        <item>Farmacija</item>
+        <item>Sestrinstvo</item>
+        <item>Radiološka tehnologija</item>
+        <item>Fizioterapija</item>
+        <item>Sanitarno inžinjerstvo</item>
+        <item>Medicinsko labaratorijska dijagnostistika</item>
+        <item>Babištvo</item>
+
+
+    </string-array>
+
+
+    <string-array name="BLpoljoprivreda">
+        <item>Animalna proizvodnja</item>
+        <item>Biljna proizvodnja</item>
+        <item>Ratarstvo i povrtarstvo</item>
+        <item>Hortikultura</item>
+        <item>Voćarstvo i vonogradarstvo</item>
+        <item>Zaštita biljaka</item>
+        <item>Agrarna ekonomijai ruralni razvoj</item>
+
+    </string-array>
+
+
+    <string-array name="BLpravo">
+        <item>Jedinstveni studij</item>
+
+    </string-array>
+
+
+    <string-array name="BLPMF">
+        <item>Fizika</item>
+        <item>Matematika i informatika</item>
+        <item>Biologija</item>
+        <item>Ekologija i zaštita životne sredine</item>
+        <item>Hemija</item>
+        <item>Geografija</item>
+        <item>Prostorno planiranje</item>
+        <item>Tehničko vaspitanje i inforamtika</item>
+
+
+    </string-array>
+
+
+    <string-array name="BLRudarstvo">
+
+        <item>Rudarstvo</item>
+        <item>Geološko inženjerstvo</item>
+
+    </string-array>
+
+
+    <string-array name="BLTehnoloski">
+
+
+        <item>Hemijsko inžinjerstvo i tehnologije</item>
+        <item>Prehrambene tehnologije i industrijske biotehnologije</item>
+        <item>Grafičko inženjerstvo</item>
+        <item>Tekstilno inženjerstvo</item>
+
+    </string-array>
+
+
+    <string-array name="BLbezbjednost">
+
+        <item>Jedinstveni studij</item>
+    </string-array>
+
+
+    <string-array name="BLsport">
+
+        <item>Diplomirani trener</item>
+        <item>Diplomirani kondicioni trener</item>
+        <item>Diplomirani menadžer sporta</item>
+        <item>Diplomirani trener sportske rekreacije</item>
+        <item>Opšti nastavnički</item>
+    </string-array>
+
+
+    <string-array name="BLfiloloski">
+
+        <item>Srpski jezik i književnosti</item>
+        <item>Engleski jezik i književnosti</item>
+        <item>Njemački jezik i književnosti</item>
+        <item>Italijanski jezik i književnosti</item>
+        <item>Francuski jezik i književnosti</item>
+        <item>Ruski i srpski jezik i književnost</item>
+
+
+    </string-array>
+
+
+    <string-array name="BLFilozofski">
+
+        <item>Filozofija</item>
+        <item>Psihologija</item>
+        <item>Pedagogija</item>
+        <item>Istorija</item>
+        <item>Učiteljski studij</item>
+        <item>Predškolsko vaspitanje</item>
+
+
+    </string-array>
+
+
+    <string-array name="BLSumarski">
+
+
+        <item>Šumarstvo</item>
+        <item>Prerada drveta</item>
+
+    </string-array>
+
+
+    <string-array name="fakultetiPoslovnaskolaBL">
+        <item>Fakultet za poslovne i finansijske studije</item>
+        <item>Fakultet za primjenjenu ekonomiju</item>
+        <item>Fakultet za informacione tehnologije i dizajn</item>
+        <item>Fakultet za ekologiju</item>
+        <item>Fakultet za turizam i hotelijerstvo</item>
+        <item>Fakultet za novinarstvo i komunikologiju</item>
+        <item>Fakultet pravnih nauka</item>
+
+    </string-array>
+
+
+    <string-array name="BLpos0">
+        <item>Računovodstvo i revizija</item>
+        <item>Bankarstvo</item>
+        <item>Bankarsko i berzansko poslovanje</item>
+        <item>Porez, carine i budžet</item>
+    </string-array>
+
+
+    <string-array name="BLpos1">
+
+        <item>Menadžment i marketing</item>
+        <item>Menadžment i marketing malih i srednjih preduzeća</item>
+
+    </string-array>
+
+    <string-array name="BLpos2">
+
+        <item>Grafički dizajn</item>
+        <item>Računarske i informacione tehnologije</item>
+
+    </string-array>
+
+
+    <string-array name="BLpos3">
+
+
+        <item>Jedinstveni studij</item>
+
+    </string-array>
+
+
+    <string-array name="BLpos4">
+
+        <item>Jedinstveni studij</item>
+
+    </string-array>
+
+
+    <string-array name="BLpos5">
+
+        <item>Jedinstveni studij</item>
+    </string-array>
+
+
+    <string-array name="BLpos6">
+        <item>Pravne nauke</item>
+        <item>Pravo evropske unije</item>
+    </string-array>
+
+
+    <string-array name="fakultetiBLKOledz">
+
+        <item>Informatika</item>
+        <item>Grafički dizajn i vizuelne komunikacije</item>
+        <item>Ekonomija i poslovanje</item>
+        <item>Mediji i odnosi sa javnošću</item>
+        <item>Menadžment kulture i produkcije</item>
+        <item>Menadžment gastronomije i ugostiteljstva</item>
+
+    </string-array>
+
+
+    <string-array name="BLKOledz0">
+        <item>Jedinstveni studij</item>
+    </string-array>
+
+
+    <string-array name="BLKOledz1">
+
+        <item>Menadžment zaštite na radu</item>
+        <item>Ekološki menadžment</item>
+        <item>Poslovna ekonomija</item>
+        <item>Menadžment logistike, špedicije i osiguranja</item>
+        <item>Menadžment finansija, bankarstva i osiguranja</item>
+        <item>Menadžment finansija i bankarstva</item>
+        <item>Menadžment finansija i osiguranja</item>
+        <item>Poduzetnički menadžment</item>
+        <item>Menadžment zaštite na radu i zaštite životne sredine</item>
+        <item>Menadžment marketinga</item>
+        <item>Menadžment logistike i špedicije</item>
+
+    </string-array>
+
+    <string-array name="BLKOledz2">
+
+        <item>Novinarstvo i multimedija</item>
+        <item>Odnosi sa javnošću</item>
+    </string-array>
+
+
+    <string-array name="fakultetNezBL">
+        <item>Ekonomski fakultet</item>
+        <item>Fakultet za političke nauke</item>
+        <item>Fakultet lijepih umjetnosti</item>
+        <item>Fakultet za ekologiju</item>
+        <item>Pedagoški fakultet</item>
+        <item>Fakultet za informatiku</item>
+        <item>Fakultet za bezbjednost i zaštitu</item>
+    </string-array>
+
+
+    <string-array name="Nez0">
+
+
+        <item>Fakultet Poslovna ekonomija</item>
+        <item>Fakultet Menadžment i marketing</item>
+        <item>Fakultet Turizam</item>
+        <item>Fakultet Finansije</item>
+        <item>Fakultet Banakrstvo i osiguranje</item>
+        <item>Fakultet Računovodstvo i revizija</item>
+        <item>Fakultet Privredni razvoj</item>
+        <item>Fakultet Osiguranje i upravljanje rizicima</item>
+        <item>Fakultet Menadžment</item>
+        <item>Fakultet Bankarstvo i berzansko poslovanje</item>
+        <item>Fakultet Porezi, carine, budžet</item>
+        <item>Fakultet Računovodstvo i revizija</item>
+    </string-array>
+
+
+    <string-array name="Nez1">
+
+        <item>Spoljnа i unutrаšnjа politikа</item>
+        <item>Međunаrodni odnosi i diplomаtijа</item>
+        <item>Jаvne službe i аdministrаcijа</item>
+    </string-array>
+
+
+    <string-array name="Nez2">
+
+        <item>Slikarstvo</item>
+
+    </string-array>
+
+    <string-array name="Nez3">
+
+        <item>Ekologija</item>
+    </string-array>
+
+    <string-array name="Nez4">
+
+        <item>Predškolsko vaspitanje</item>
+        <item>Razredna nastava</item>
+        <item>Poslovna psihologija</item>
+
+    </string-array>
+
+
+    <string-array name="Nez5">
+
+        <item>Računarstvo i informatika</item>
+        <item>Poslovna informatika</item>
+    </string-array>
+
+
+    <string-array name="Nez6">
+
+        <item>Bezbjednost i kriminalistika</item>
+        <item>Privatna bezbjednost</item>
+        <item>Civilna zaštita</item>
+    </string-array>
+
+
+    <string-array name="fakultetKAPAfIBl">
+        <item>Komunikologija</item>
+        <item>Engleski jezik</item>
+
+        <item>Dizajn</item>
+    </string-array>
+
+
+    <string-array name="Kapa0">
+        <item>Jedinstveni studij</item>
+    </string-array>
+
+    <string-array name="Kapa2">
+        <item>Grafički dizajn</item>
+        <item>Multimedijalni dizajn</item>
+    </string-array>
+
+    <string-array name="Kapa1">
+        <item>Novinarstvo</item>
+        <item>Odnosi s javnošću</item>
+    </string-array>
+
+
+    <string-array name="fakultetSinBjeljina">
+        <item>Fakultet za poslovnu ekonomiju</item>
+        <item>Fakultet za računarstvo i informatiku</item>
+        <item>Pravni fakultet</item>
+        <item>Filološki fakultet</item>
+        <item>Fakultet dramskih i filmskih umjetnosti</item>
+    </string-array>
+
+    <string-array name="Bjelj0">
+        <item>Finansije i bankarstvo</item>
+        <item>Marketing i trgovina</item>
+        <item>Računovodstvo i revizija</item>
+    </string-array>
+
+    <string-array name="Bjelj1">
+        <item>Jedinstveni studij</item>
+    </string-array>
+
+    <string-array name="Bjelj2">
+        <item>Anglistika-engleski jezik</item>
+    </string-array>
+
+    <string-array name="Bjelj3">
+        <item>Gluma</item>
+        <item>Filmska i tv umjetnost</item>
+    </string-array>
+
+
+    <string-array name="fakultetiSSST">
+        <item>Computer Science</item>
+        <item>Game Design and Development</item>
+        <item>Information Systems</item>
+        <item>Political Science and International Relations</item>
+        <item>Sarajevo Medical School</item>
+        <item>Health Studies</item>
+        <item>Dentistry</item>
+        <item>Pharmacy</item>
+        <item>Foreign Languages</item>
+        <item>Sarajevo Film Academy</item>
+    </string-array>
+
+
+    <string-array name="SSSTP">
+        <item>Jedinstveni Studij</item>
+    </string-array>
+
+    <string-array name="fakultetbiznisIstocnosarajevo">
+        <item>Poduzetništvo i finansije</item>
+        <item>Javna uprava i bezbjednost</item>
+        <item>Poslovna informatika</item>
+        <item>Političke naule</item>
+        <item>Ekonomija i poslovanje</item>
+        <item>Pravo</item>
+    </string-array>
+
+    <string-array name="ISTSa">
+        <item>Jedinstveni studij</item>
+    </string-array>
+
+    <string-array name="fakultetiZenica">
+        <item>Metalurško-tehnološki fakultet</item>
+        <item>Mašinski fakultet</item>
+        <item>Filozofski fakultet</item>
+        <item>Ekonomski fakultet</item>
+        <item>Pravni fakultet</item>
+        <item>Medicinski fakultet</item>
+        <item>Politehnički fakultet</item>
+        <item>Islamski pedagoški fakultet</item>
+    </string-array>
+
+
+    <string-array name="Zenica0">
+        <item>Hemijsko inženjerstvo</item>
+        <item>Metalurško inženjerstvo</item>
+        <item>Inženjerstvo materijala</item>
+    </string-array>
+
+
+    <string-array name="Zenica1">
+        <item>Inženjerski dizajn proizvoda</item>
+        <item>Menadžment proizvodnim tehnologijama</item>
+        <item>Inženjerska ekologija</item>
+        <item>Održavanje</item>
+        <item>Mašinstvo</item>
+        <item>Inženjerska poslovna informatika</item>
+        <item>Dizajn tehnologije u drvopreradi</item>
+    </string-array>
+
+    <string-array name="Zenica2">
+
+        <item>Razredna nastava</item>
+        <item>Matematika i informatika</item>
+        <item>Engleski jezik i književnost</item>
+        <item>Njemački jezik i književnost</item>
+        <item>BHS jezik i književnost</item>
+        <item>Turski jezik i književnost</item>
+        <item>Kulturalni studij</item>
+    </string-array>
+
+
+    <string-array name="Zenica3">
+        <item>Menadžment</item>
+        <item>Finansije i računovodstvo</item>
+    </string-array>
+
+    <string-array name="Zenica4">
+        <item>Jedinstveni studij</item>
+    </string-array>
+
+    <string-array name="Zenica5">
+        <item>Opći smjer zdravstvene njege</item>
+        <item>Opća medicina</item>
+    </string-array>
+
+
+    <string-array name="Zenica6">
+
+        <item>Građevinarstvo</item>
+        <item>Proizvodni biznis</item>
+        <item>Softversko inženjerstvo</item>
+    </string-array>
+
+    <string-array name="Zenica7">
+        <item>Islamska vjeronauka</item>
+        <item>Socijalna pedagogija</item>
+        <item>Predškolski odgoj i obrazovanje</item>
+        <item>Arapski jezik i književnost</item>
+    </string-array>
+
+    <string-array name="fakultetiDzBijedic">
+        <item>Agromediteranski fakultet</item>
+        <item>Ekonomski fakultet</item>
+        <item>Fakultet humanističkih nauka</item>
+        <item>Fakultet informaciskih tehnologija</item>
+        <item>Građevinski fakultet</item>
+        <item>Mašinski fakultet</item>
+        <item>Nastavnički fakultet</item>
+        <item>Pravni fakultet</item>
+    </string-array>
+
+
+    <string-array name="Bijedic0">
+        <item>Povrtlarsko – cvjećarski smjer</item>
+        <item>Voćarsko – vinogradarski smjer</item>
+        <item>Ekologija i upravljanje okolišom u poljoprivredi</item>
+    </string-array>
+
+    <string-array name="Bijedic1">
+        <item>Poslovni menadžment</item>
+        <item>Menadžment finansija</item>
+        <item>Računovodstvo i revizija</item>
+    </string-array>
+
+    <string-array name="BIjedic2">
+
+        <item>Bosanski jezik i književnost</item>
+        <item>Engleski jezik i književnost</item>
+        <item>Turski jezik i književnost</item>
+        <item>Njemački jezik i književnost</item>
+        <item>Historija i međunarodni odnosi</item>
+        <item>Komunikologija</item>
+    </string-array>
+
+    <string-array name="Bijedic3">
+        <item>Jedinstveni studij</item>
+
+    </string-array>
+
+    <string-array name="Bijedic4">
+
+        <item>Opći odsjek</item>
+        <item>Geodezija i geoinformatika</item>
+
+    </string-array>
+
+    <string-array name="Bijedic5">
+        <item>Dizajn proizvoda</item>
+        <item>Kompjuterski inženjering</item>
+        <item>Energetski smjer</item>
+    </string-array>
+
+
+    <string-array name="Bijedic6">
+        <item>Hemija</item>
+        <item>Sport i zdravlje</item>
+        <item>Razredna nastava</item>
+        <item>Konzervacijska biologija i ekologija</item>
+        <item>Psihologija i sociologija</item>
+        <item>Pedagogija</item>
+        <item>Stručni studij iz oblasti sporta</item>
+    </string-array>
+
+
+    <string-array name="Bijedic7">
+        <item>Akademski dodiplomski studij</item>
+        <item>Opći smjer</item>
+        <item>Kriminologija i sigurnosne studije</item>
+    </string-array>
+
+
+    <string-array name="fakultetiTuzla">
+        <item>Akademija dramskih umjetnosti</item>
+        <item>Edukacisko-rehabilitacijski fakultet</item>
+        <item>Ekonomski fakultet</item>
+        <item>Fakultet elektrotehnike</item>
+        <item>Fakultet za tjelesni odgoj i sport</item>
+        <item>Farmaceutski fakultet</item>
+        <item>Filozofski fakultet</item>
+        <item>Mašinski fakultet</item>
+        <item>Medicinski fakultet</item>
+        <item>Pravni fakultet</item>
+        <item>Prirodno-matematički fakultet</item>
+        <item>Rudarsko-geološko-građevinski fakultet</item>
+        <item>Tehnološki fakultet</item>
+    </string-array>
+
+
+    <string-array name="Tuzla0">
+        <item>Gluma</item>
+    </string-array>
+
+    <string-array name="Tuzla1">
+        <item>Logopedija i audiologija</item>
+        <item>Specijalna edukacija i rehabilitacija</item>
+        <item>Poremećaji u ponašanju</item>
+    </string-array>
+
+    <string-array name="Tuzla2">
+        <item>Marketing</item>
+        <item>Računovodstvo i revizija</item>
+        <item>Finansije, bankarstvo i osiguranje</item>
+        <item>Menadžment</item>
+        <item>Makroekonomski menadžment</item>
+        <item>Poslovne i javne finansije</item>
+        <item>Menadžment i poduzetništvo</item>
+        <item>Poslovanje javnog sektora</item>
+        <item>Elektronsko poslovanje</item>
+    </string-array>
+
+    <string-array name="Tuzla3">
+        <item>Elektrotehnika i računarstvo</item>
+        <item>Elektroenergetske mreže i sistemi</item>
+        <item>Elektrotehnika i sistemi konverzije energije</item>
+        <item>Automatika i robotika</item>
+        <item>Računarstvo i informatika</item>
+        <item>Telekomunikacije</item>
+        <item>Tehnički odgoj i informatika</item>
+    </string-array>
+
+    <string-array name="Tuzla4">
+        <item>Tjelesni odgoj i sport – 4 godine</item>
+        <item>Edukacija trenera u sportu – 3 godine</item>
+        <item>Sportski trener</item>
+    </string-array>
+
+    <string-array name="Tuzla5">
+        <item>Jedinstveni studij</item>
+    </string-array>
+
+    <string-array name="Tuzla6">
+        <item>Bosanski jezik i književnost</item>
+        <item>Historija</item>
+        <item>Predškolski odgoj i obrazovanje</item>
+        <item>Razredna nastava</item>
+        <item>Engleski jezik i književnost</item>
+        <item>Turski jezik i književnost</item>
+        <item>Njemački jezik i književnost</item>
+        <item>Žurnalistika</item>
+        <item>Pedagogija – Psihologija</item>
+        <item>Socijalni rad </item>
+        <item>Filozofija – Sociologija</item>
+    </string-array>
+
+    <string-array name="Tuzla7">
+        <item>Energetsko mašinstvo</item>
+        <item>Proizvodno mašinstvo</item>
+        <item>Mehatronika</item>
+    </string-array>
+
+    <string-array name="Tuzla8">
+        <item>Studij medicine</item>
+        <item>Studij sestrinstva</item>
+        <item>Studij fizioterapije</item>
+        <item>Studij medicinsko-laboratorijske dijagnostike</item>
+        <item>Studij radiološke tehnologije</item>
+        <item>Studij sanitarnog zdravstva</item>
+    </string-array>
+
+    <string-array name="Tuzla9">
+        <item>Jedinstveni studij</item>
+    </string-array>
+
+
+    <string-array name="Tuzla10">
+
+        <item>Primjenjana matematika</item>
+        <item>Edukacija u matematici</item>
+        <item>Primjenjena fizika</item>
+        <item>Edukacija u fizici</item>
+        <item>Geografija</item>
+        <item>Primjenjena biologija</item>
+        <item>Edukacija u biologiji</item>
+        <item>Primjenjena hemija</item>
+        <item>Edukacija u hemiji</item>
+    </string-array>
+
+    <string-array name="Tuzla11">
+
+        <item>Bušotinska eksploatacija mineralnih sirovina</item>
+        <item>Geologija</item>
+        <item>Građevinarstvo</item>
+        <item>Rudarstvo</item>
+        <item>Sigurnost i pomoć</item>
+    </string-array>
+
+
+    <string-array name="Tuzla12">
+
+        <item>Hemijsko inženjerstvo i tehnologija</item>
+        <item>Hemija i inženjerstvo materijala</item>
+        <item>Prehrambena tehnologija</item>
+        <item>Kvalitet i sigurnost hrane</item>
+        <item>Inžinjerstvo zaštite okoline</item>
+        <item>Zaštita na radu</item>
+        <item>Animalna proizvodnja</item>
+        <item>Biljna proizvodnja</item>
+    </string-array>
+
+
+    <string-array name="fakultetisveuMostar">
+        <item>Agronomski i prehrambeno-tehnološki fakultet</item>
+        <item>Akademija likovnih umjetnosti</item>
+        <item>Ekonomski fakultet</item>
+        <item>Fakultet prirodoslovno-matematičkih i odgojnih znanosti</item>
+        <item>Fakultet strojarstva, računarstva i elektrotehnike</item>
+        <item>Fakultet zdravstvenih studija</item>
+        <item>Filozofski fakultet</item>
+        <item>Farmaceutski fakultet</item>
+        <item>Građevinski fakultet</item>
+        <item>Medicinski fakultet</item>
+        <item>Pravni fakultet</item>
+    </string-array>
+
+    <string-array name="sveuc0">
+        <item>Studije agronomije – Opći smjer</item>
+        <item>Studije prehrambene tehnologije</item>
+    </string-array>
+
+    <string-array name="sveuc1">
+        <item>Jedinstveni studij</item>
+    </string-array>
+
+    <string-array name="sveuc2">
+        <item>Poslovna ekonomija</item>
+        <item>Nastava u Mostaru</item>
+        <item>Nastava u Vitezu</item>
+    </string-array>
+
+    <string-array name="sveuc3">
+
+        <item>Kineziologija</item>
+        <item>Glazbena umjetnost</item>
+        <item>Informatika</item>
+        <item>Matematika</item>
+        <item>Fizika</item>
+        <item>Biologija</item>
+        <item>Geografija</item>
+        <item>Kemija</item>
+        <item>Predškolski odgoj</item>
+        <item>Razredna nastava</item>
+        <item>Pedagogija</item>
+        <item>Znanost o okolišu</item>
+        <item>Edukacijska rehabilitacija</item>
+        <item>Geografija smjer Turizam i zaštita okoliša</item>
+        <item>Informatika – Orašje</item>
+        <item>Razredna nastava – Orašje</item>
+        <item>Predškolski odgoj – Orašje</item>
+        <item>Geografija smjer Turizam i zaštita okoliša – Orašje</item>
+        <item>Glazbena umjetnost – Kreševo</item>
+        <item>Tehnika</item>
+        <item>Stručni studij kineziologije</item>
+    </string-array>
+
+    <string-array name="sveuc4">
+        <item>Studij strojarstva</item>
+        <item>Studij računarstva</item>
+        <item>Studij elektrotehnike</item>
+        <item>Računarstvo</item>
+        <item>Strojarstvo</item>
+    </string-array>
+
+    <string-array name="sveuc5">
+        <item>Studij sestrinstva</item>
+        <item>Studij fizioterapije</item>
+        <item>Studij radiološke tehnologije</item>
+        <item>Studij sanitarnog inženjerstva</item>
+        <item>Studij primaljstva</item>
+    </string-array>
+
+    <string-array name="sveuc6">
+
+        <item>Hrvatski jezik i književnost – jednopredmetno</item>
+        <item>Hrvatski jezik i književnost – dvopredmetno</item>
+        <item>Engleski jezik i književnost – jednopredmetno</item>
+        <item>Engleski jezik i književnost – dvopredmetno</item>
+        <item>Njemački jezik i književnost – jednopredmetno</item>
+        <item>Njemački jezik i književnost – dvopredmetno</item>
+        <item>Ruski jezik i književnost – dvopredmetno</item>
+        <item>Komparativna književnost – dvopredmetno</item>
+        <item>Filozofija – dvopredmetno</item>
+        <item>Latinski jezik i rimska književnost – dvopredmetno</item>
+        <item>Povijest – dvopredmetno</item>
+        <item>Povijest umjetnosti – dvopredmetno</item>
+        <item>Arheologija – jednopredmetno</item>
+        <item>Arhelogija – dvopredmetno</item>
+        <item>Psihologija – jednopredmetno</item>
+        <item>Novinarstvo – jednopredmetno</item>
+        <item>Novinarstvo – dvopredmetno</item>
+        <item>Socijalni rad – jednopredmetno</item>
+        <item>Politologija – jednopredmetno</item>
+        <item>Informacijske znanosti – jednopredmetno</item>
+        <item>Informacijske znanosti – dvopredmetno</item>
+        <item>Talijanski jezik i književnost – dvopredmetno</item>
+        <item>Studij Logopedije – jednopredmetno</item>
+        <item>Odnosi s javnošću – jednopredmetno</item>
+        <item>Socijalni rad – Orašje</item>
+        <item>Odnosi s javnošću – Brčko</item>
+    </string-array>
+
+    <string-array name="sveuc7">
+        <item>Studij farmacije</item>
+    </string-array>
+
+
+    <string-array name="sveuc8">
+
+        <item>Studij građevinarstva</item>
+        <item>Studij arhitekture i urbanizma</item>
+    </string-array>
+
+    <string-array name="sveuc9">
+        <item>Studij medicine</item>
+        <item>Studij dentalne medicine</item>
+    </string-array>
+
+    <string-array name="sveuc10">
+        <item>Pravni studij Centar Vitez</item>
+        <item>Pravni studij Centar Orašje</item>
+
+        <item>Kriminalistika i sigurnosni menadžment Vitez</item>
+        <item>Kriminalistika i sigurnosni menadžment Orašje</item>
+    </string-array>
+
+
+    <string-array name="fakultetiLogos">
+        <item>Dizajn</item>
+        <item>Promet</item>
+        <item>Energetika</item>
+        <item>Pravo i finansije</item>
+        <item>Sigurnosne studije</item>
+        <item>Organizacijske znanosti (IT)</item>
+        <item>Zaštita na radu i zaštita od požara</item>
+    </string-array>
+    <string-array name="logos1">
+        <item>Jedinstveni studij</item>
+    </string-array>
+
+    <string-array name="fakultetiBihac">
+        <item>Biotehnički fakultet</item>
+        <item>Ekonomski fakultet</item>
+        <item>Pedagoški fakultet</item>
+        <item>Pravni fakultet</item>
+        <item>Tehnički fakultet</item>
+        <item>Fakultet zdravstvenih studija</item>
+    </string-array>
+
+    <string-array name="bihac0">
+        <item>Poljoprivredni</item>
+        <item>Prehrambena tehnologija</item>
+        <item>Zaštita okoliša / inženjerstvo u zaštiti okoliša</item>
+    </string-array>
+
+    <string-array name="bihac1">
+        <item>Biznis</item>
+        <item>Računovodstvo i revizija</item>
+        <item>Finansijsko – računovodstveni</item>
+        <item>Menadžment i marketing u turizmu</item>
+    </string-array>
+
+    <string-array name="bihac2">
+        <item>Bosanski jezik s književnošću i historija</item>
+        <item>Matematika – fizika</item>
+        <item>Razredna nastava</item>
+        <item>Engleski jezik i književnost</item>
+        <item>Njemački jezik i književnost</item>
+        <item>Tjelesni odgoj i sport</item>
+        <item>Predškolski odgoj</item>
+    </string-array>
+
+    <string-array name="bihac3">
+        <item>Jedinstveni studij</item>
+    </string-array>
+
+    <string-array name="bihac4">
+        <item>Proizvodno konkstrukcioni smjer</item>
+        <item>Dizajn mašinskih konstrukcija</item>
+        <item>Odjevne tehnologije</item>
+        <item>Dizajn tekstila i odjeće</item>
+        <item>Tehnologija</item>
+        <item>Dizajn i konstrukcija</item>
+        <item>Niskogradnja</item>
+        <item>Visokogradnja</item>
+        <item>Računarstvo i informatika</item>
+        <item>Automatika i elektronika</item>
+    </string-array>
+
+    <string-array name="bihac5">
+        <item>Sestrinstvo</item>
+        <item>Fizikalna terapija</item>
+        <item>Sanitarno inženjerstvo</item>
+
+    </string-array>
+
+    <string-array name="fakultetiTravnik">
+        <item>Fakultet za menadžment i poslovnu ekonomiju</item>
+        <item>Pravni fakultet</item>
+        <item>Edukacijski fakultet Travnik</item>
+        <item>Tehnički fakultet</item>
+        <item>Farmaceutsko-zdravstveni fakultet</item>
+    </string-array>
+
+
+    <string-array name="ftravnik0">
+        <item>Opći menadžment</item>
+        <item>Menadžment u bankarstvu i osiguranju</item>
+        <item>Poslovna ekonomija</item>
+        <item>Poslovna informatika</item>
+        <item>Menadžment u turizmu i ugostiteljstvu</item>
+        <item>Poslovna psihologija</item>
+    </string-array>
+
+    <string-array name="ftravnik1">
+        <item>Opće pravo</item>
+        <item>Poslovno pravo</item>
+    </string-array>
+
+    <string-array name="ftravnik2">
+        <item>Pedagogija i psihologija</item>
+        <item>Razredna nastava</item>
+        <item>Matematika i informatika</item>
+        <item>Opća kineziologija</item>
+        <item>Sportski menadžment</item>
+        <item>Specijalne namjene</item>
+        <item>Novinarstvo</item>
+
+    </string-array>
+
+
+    <string-array name="ftravnik3">
+        <item>Arhitektura</item>
+        <item>Građevina</item>
+        <item>Grafičko inženjerstvo i dizajn</item>
+        <item>Inženjerska informatika</item>
+        <item>Tekstilno inženjerstvo i dizajn</item>
+        <item>Sigurnost i zaštita na radu</item>
+    </string-array>
+
+    <string-array name="ftravnik4">
+        <item>Stomatologija</item>
+        <item>Farmacija</item>
+        <item>Medicinsko sestrinstva</item>
+        <item>Zdravstvena njega i terapija</item>
+        <item>Medicinska radiologija/ inžinjer medicinske radiologije</item>
+        <item>Radiološka tehnologija</item>
+        <item>Fizioterapija</item>
+    </string-array>
+
+
+    <string-array name="fakultetiINTravnik">
+        <item>Ekonomski fakultet</item>
+        <item>Saobraćajni fakultet</item>
+        <item>Fakultet politehničkih nauka</item>
+        <item>Ekološki fakultet</item>
+        <item>Fakultet za medije i komunikacije</item>
+        <item>Pravni fakultet</item>
+        <item>Fakulte informacionih tehnologija</item>
+    </string-array>
+
+
+    <string-array name="intr0">
+        <item>Finansije, računovodstvo i revizija</item>
+        <item>Bankarstvo i osiguranje</item>
+        <item>Marketing i trgovina</item>
+        <item>Preduzetništvo i samozapošljavanje</item>
+        <item>Turizam i hoteljerstvo</item>
+        <item>Poslovna ekonomija</item>
+        <item>Poslovni menadžment</item>
+        <item>Poslovna informatika</item>
+    </string-array>
+
+    <string-array name="intr1">
+        <item>Drumski i gradski saobraćaj</item>
+        <item>Menadžment u saobraćaju</item>
+        <item>Vazdušni saobraćaj</item>
+    </string-array>
+
+    <string-array name="intr2">
+        <item>Motori i vozila</item>
+        <item>Proizvodno mašinstvo</item>
+        <item>Mašinske konstrukcije</item>
+        <item>Energetika</item>
+        <item>Elektroenergetika</item>
+        <item>Računarstvo i informatika</item>
+        <item>Telekomunikacije</item>
+        <item>Građevinarstvo</item>
+        <item>Putevi</item>
+        <item>Hidrookolinski inžinjering</item>
+        <item>Privredna i tehnička logistika</item>
+        <item>Logistika sistema</item>
+        <item>Logistički menadžment</item>
+        <item>Sigurnost</item>
+        <item>Zaštita na radu</item>
+        <item>Preduzetnički menadžment</item>
+        <item>Informacioni menadžment</item>
+        <item>Inžinjerstvo i menadžment osiguranja</item>
+        <item>Menadžment ljudskih resursa</item>
+        <item>Logistički menadžment</item>
+    </string-array>
+
+
+    <string-array name="intr3">
+        <item>Primjenjena ekologija</item>
+        <item>Zaštita životne sredine</item>
+    </string-array>
+
+
+    <string-array name="intr4">
+        <item>Komunikacije</item>
+        <item>Mediji i novinarstvo</item>
+    </string-array>
+
+    <string-array name="intr5">
+        <item>Opće pravo</item>
+        <item>Građansko pravo</item>
+        <item>Historija države i prava</item>
+        <item>Krivično pravo</item>
+        <item>Državno i međunarodno javno pravo</item>
+        <item>Privredno pravo</item>
+    </string-array>
+
+    <string-array name="intr6">
+        <item>Informacione tehnologije</item>
+        <item>Računarski sistemi i mreže</item>
+        <item>Softversko programiranje</item>
+    </string-array>
+
+
+    <string-array name="fakultetiCEPS">
+        <item>Studij sigurnosti</item>
+        <item>Promet</item>
+        <item>Poslovna ekonomija</item>
+        <item>Energetika</item>
+        <item>Informacijske tehnologije</item>
+        <item>Zdravstvene studije</item>
+        <item>Zaštita na radu i zaštita od požara</item>
+    </string-array>
+
+    <string-array name="ceps0">
+        <item>Kriminalistika</item>
+    </string-array>
+
+    <string-array name="ceps1">
+        <item>Cestovni promet</item>
+        <item>Željeznički promet</item>
+    </string-array>
+
+    <string-array name="ceps2">
+        <item>Finansije i računovodstvo</item>
+        <item>Menadžment</item>
+        <item>Menadžment javnog sektora i uprave</item>
+    </string-array>
+
+    <string-array name="ceps3">
+        <item>Gospodarenje energijom i energetska učinkovitost</item>
+        <item>Obnovljivi izvori energije</item>
+        <item>Održavanje energetskih postrojenja</item>
+        <item>Termotehnika</item>
+    </string-array>
+
+
+    <string-array name="ceps4">
+        <item>Informacijski sistemi i tehnologije</item>
+    </string-array>
+
+    <string-array name="ceps5">
+        <item>Sestrinstvo</item>
+        <item>Sanitarni inženjering</item>
+        <item>Fizioterapija</item>
+        <item>Gerijatrija</item>
+    </string-array>
+
+    <string-array name="ceps6">
+        <item>Zaštita na radu</item>
+        <item>Zaštita od požara</item>
+    </string-array>
+
+    <string-array name="fakultetVitez">
+        <item>Fakultet poslovne ekonomije</item>
+        <item>Fakultet informacijskih tehnologija</item>
+        <item>Pravni fakultet</item>
+        <item>Fakultet zdravstvenih studija</item>
+    </string-array>
+
+
+    <string-array name="vitez0">
+        <item>Poduzetnički menadžment</item>
+        <item>Financije i računovodstvo</item>
+    </string-array>
+
+    <string-array name="vitez1">
+        <item>Poslovna informatika</item>
+        <item>Informacijske tehnologija</item>
+    </string-array>
+
+    <string-array name="vitez2">
+        <item>Opće pravo</item>
+        <item>Krivično financijsko pravo</item>
+    </string-array>
+
+    <string-array name="vitez3">
+        <item>Sestrinstvo</item>
+        <item>Fizioterapija i radna terapija</item>
+        <item>Sanitarni inžinjering</item>
+    </string-array>
+
+
+    <string-array name="fakultetiApeiron">
+        <item>Fakultet poslovne ekonomije</item>
+        <item>Fakultet pravnih nauka</item>
+        <item>Fakultet informacionih tehnologija</item>
+        <item>Fakultet sportskih nauka</item>
+        <item>Fakultet zdravstvenih nauka</item>
+        <item>Fakultet filoloških nauka</item>
+        <item>Saobraćajni fakultet</item>
+    </string-array>
+
+
+    <string-array name="ap0">
+        <item>Preduzetnički menadžment</item>
+        <item>Menadžment bankarstva, ﬁnansija i trgovine</item>
+        <item>Menadžment javne uprave</item>
+    </string-array>
+
+    <string-array name="ap1">
+        <item>Opšte pravni studijski program</item>
+        <item>Poslovno pravo</item>
+    </string-array>
+
+    <string-array name="ap2">
+        <item>Poslovna informatika</item>
+        <item>Nastavnička informatika </item>
+
+    </string-array>
+
+    <string-array name="ap3">
+        <item>Sportski menadžment </item>
+        <item>Sportski trener</item>
+        <item>Pedagoško-nastavni studijski program u sportu </item>
+    </string-array>
+
+    <string-array name="ap4">
+        <item>Sestrinstvo</item>
+        <item>Menadžment u zdravstvu</item>
+        <item>Fizioterapija i radna terapija</item>
+        <item>Sanitarni inženjering</item>
+        <item>Laboratorijsko-medicinski inženjering</item>
+    </string-array>
+
+
+    <string-array name="ap5">
+
+
+        <item>Nastavno-prevodilački studijski program ruskog jezika</item>
+        <item>Ruski jezik</item>
+    </string-array>
+
+    <string-array name="ap6">
+        <item>Drumski saobraćaj i transport</item>
+    </string-array>
+
+
+    <string-array name="fakultetiprometej">
+        <item>Poslovna ekonomija</item>
+        <item>Poslovna informatika</item>
+        <item>Poslovna ekonomija (4 godine)</item>
+        <item>Transportno inžinjerstvo</item>
+    </string-array>
+
+
+    <string-array name="pro0">
+        <item>Jedinstveni studij</item>
+    </string-array>
+
+    <string-array name="fakutetiHercegovina">
+        <item>Psihologija</item>
+        <item>Pedagogija</item>
+        <item>Sociologija i politologija</item>
+        <item>Menadžment i javna uprava</item>
+        <item>Međunarodni odnosi i diplomacija</item>
+        <item>Predškolski odgoj</item>
+        <item>Pravo s međunarodnim odnosima</item>
+        <item>Defektologija</item>
+        <item>Razredna nastava</item>
+        <item>Informatika i komunikologija</item>
+        <item>Turizam</item>
+        <item>Socijalna pedagogija</item>
+        <item>Ekologija i zaštita okoliša</item>
+
+
+    </string-array>
+
+
+    <string-array name="herc0">
+        <item>Jedinstveni studij</item>
+    </string-array>
+
+    <string-array name="fakultetiPIMBL">
+        <item>Ekonomski fakultet</item>
+        <item>Filozofski fakultet</item>
+        <item>Pravni fakultet</item>
+        <item>Računarske nauke</item>
+        <item>Tehnički fakultet</item>
+
+    </string-array>
+
+
+    <string-array name="pim0">
+        <item>Menadžment</item>
+        <item>Finansije i bankarstvo</item>
+        <item>Marketing</item>
+        <item>Ekonomska diplomatija</item>
+    </string-array>
+
+    <string-array name="pim1">
+        <item>Psihologija</item>
+        <item>Andragogija</item>
+    </string-array>
+
+    <string-array name="pim2">
+
+        <item>Jedinstveni studij</item>
+    </string-array>
+
+
+    <string-array name="pim3">
+        <item>Računarstvo i informatika</item>
+    </string-array>
+
+    <string-array name="pim4">
+        <item>Grafički inženjering i dizajn</item>
+    </string-array>
+
+    <string-array name="fakultetiDOBOj">
+        <item>Bezbjednosni menadžment</item>
+        <item>Poslovna ekonomija</item>
+        <item>Tehnički menadžment</item>
+        <item>Računarstvo i informatika</item>
+    </string-array>
+
+    <string-array name="doboj0">
+        <item>Jedinstveni studij</item>
+    </string-array>
+
+
+    <string-array name="fakultetiCKM">
+        <item>Departman poslovnih resursa i resursa turizma</item>
+        <item>Departman sigurnosnih studija</item>
+        <item>Departman prirodnih resursa, nutricionizma i zdravlja</item>
+        <item>Pravo</item>
+        <item>Promet</item>
+    </string-array>
+
+
+    <string-array name="ckm0">
+        <item>Poslovni menadžment</item>
+        <item>Poslovna ekonomija</item>
+        <item>Poslovna informatika</item>
+        <item>Računovodstvo i revizija</item>
+        <item>Turizam i hotelijerstvo</item>
+    </string-array>
+
+
+    <string-array name="ckm1">
+        <item>Kriminalističko policijske studije</item>
+        <item>Sigurnost civilnog zrakopolovstva</item>
+        <item>Međunarodno pravo, diplomacija i sigurnost</item>
+        <item>Privatna sigurnost i civilna zaštita</item>
+        <item>Kriminologija i socijalni rad</item>
+    </string-array>
+
+    <string-array name="ckm2">
+        <item>Nutricionizam i zdravlje</item>
+        <item>Farmacija</item>
+        <item>Menadžment u zdravstvu</item>
+    </string-array>
+
+    <string-array name="ckm3">
+        <item>Jedinstveni studij</item>
+    </string-array>
+
+
+    <string-array name="fakultetiTuzlazadnja">
+        <item>Informacione tehnologije</item>
+        <item>Tržišne komunikacije</item>
+        <item>Savremeno poslovanje i informatički menadžment</item>
+        <item>Informatika i računarstvo</item>
+        <item>Računovodstvo i finansije</item>
+    </string-array>
+
+
+    <string-array name="zadnji0">
+        <item>Jedinstveni studij</item>
+    </string-array>
+
+
+    <string-array name="Akademijalikovnihumjetnosti">
+        <item>Nastavnički odsjek</item>
+        <item>Odsjek slikarstvo</item>
+        <item>Odsjek kiparstvo</item>
+        <item>Odsjek grafika</item>
+        <item>Odsjek grafički dizajn</item>
+        <item>Odsjek produkt dizajn</item>
+
+    </string-array>
+
+    <string-array name="Akademijascenskihumjetnosti">
+        <item>Odsjek za glumu</item>
+        <item>Odsjek za dramaturgiju</item>
+        <item>Odsjek za režiju</item>
+        <item>Odsjek za produkciju i menadžment</item>
+    </string-array>
+
+    <string-array name="Arhitektonskifakultet">
+        <item>Jedinstveni studij</item>
+    </string-array>
+
+    <string-array name="Ekonomskifakultet">
+        <item>Ekonomija</item>
+        <item>Menadžment</item>
+        <item>Visoka poslovna škola</item>
+    </string-array>
+
+
+    <string-array name="Elektotehnickifakultet">
+        <item>Odsjek za automatiku i elektroniku</item>
+        <item>Odsjek za elektroenergetiku</item>
+        <item>Odsjek za računarstvo i informatiku</item>
+        <item>Odsjek za telekomunikacije</item>
+
+    </string-array>
+
+    <string-array name="Fakultetislamskihnauka">
+        <item>Islamska teologija</item>
+        <item>Islamska vjeronauka i religijska pedagogija</item>
+        <item>Studijski program za imame, hatibe i muallime</item>
+    </string-array>
+
+    <string-array name="Fakultetkriminalistika">
+        <item>Kriminalistika</item>
+        <item>Kriminologija</item>
+        <item>Sigurnosne studije</item>
+    </string-array>
+
+    <string-array name="Fakultetpolitickihnauka">
+        <item>Odsjek za politologiju</item>
+        <item>Odsjek za sociologiju</item>
+        <item>Odsjek za komunikologiju</item>
+        <item>Odsjek za socijalni rad</item>
+        <item>Odsjek za sigurnosne i mirovne studije</item>
+    </string-array>
+
+    <string-array name="Fakultetsporta">
+
+        <item>Opći smjer</item>
+        <item>Smjerovi za školovanje trenera i kadrova za sport</item>
+        <item>Smjer specijalne namjene</item>
+        <item>Smjer sport</item>
+        <item>Smjer menadžment u sportu</item>
+        <item>Smjer sport i mediji</item>
+        <item>Smjer adaptivna priprema sportaša</item>
+        <item>Smjer kondiciona priprema sportaša</item>
+        <item>Smjer sportska rekreacija i turizam</item>
+    </string-array>
+
+    <string-array name="Fakultetsaobracaj">
+        <item>Odsjek saobraćaja</item>
+        <item>Odsjek komunikacija</item>
+    </string-array>
+
+    <string-array name="Farmacija">
+        <item>Integrirani studiji</item>
+    </string-array>
+
+    <string-array name="Filozofski">
+        <item>Odsjek za anglistiku</item>
+        <item>Odsjek za bosanski, hrvatski, srpski jezik</item>
+        <item>Odsjek za filozofiju</item>
+        <item>Odsjek za germanistiku</item>
+        <item>Odsjek za historiju</item>
+        <item>Odsjek za književnosti naroda BiH</item>
+        <item>Odsjek za komparativnu književnost i informacijske nauke</item>
+        <item>Odsjek za orijentalnu filologiju</item>
+        <item>Odsjek za pedagogiju</item>
+        <item>Odsjek za psihologiju</item>
+        <item>Odsjek za romanistiku</item>
+        <item>Odsjek za slavenske jezike i književnosti</item>
+        <item>Odsjek za sociologiju</item>
+
+    </string-array>
+
+    <string-array name="Gradjevinski">
+        <item>Odsjek za konstrukcije</item>
+        <item>Odsjek za hidrotehniku i okolišno inžinjerstvo</item>
+        <item>Odsjek za saobraćajnice</item>
+        <item>Odsjek za geodeziju i geoinformatiku</item>
+    </string-array>
+
+    <string-array name="Masinci">
+        <item>Odsjek za mašinski proizvodni inženjering</item>
+        <item>Odsjek za industrijsko inžinjerstvo i menadžment</item>
+        <item>Odsjek za energetiku procesnu tehniku i okolinško inžinjerstvo</item>
+        <item>Odsjek za odbrambene tehnologije</item>
+        <item>Odsjek za mašinske konstrukcije</item>
+        <item>Odsjek za tehnologiju drveta</item>
+        <item>Odsjek za motore i vozila</item>
+    </string-array>
+
+    <string-array name="Medicinari">
+        <item>Jedinstveni studiji</item>
+    </string-array>
+
+    <string-array name="Muzicari">
+        <item>Odsjek za kompoziciju</item>
+        <item>Odsjek za dirigovanje</item>
+        <item>Odsjek za solo pjevanje</item>
+        <item>Odsjek za klavir, udaraljke, harfu i srodne instrumente</item>
+        <item>Odsjek za gudačke instrumente i gitaru</item>
+        <item>Odsjek za duvačke instrumente i harmoniku</item>
+        <item>Odsjek za muzikologiju i etnomuzikologiju</item>
+        <item>Odsjek za muzičku teoriju i pedagogiju</item>
+
+    </string-array>
+
+    <string-array name="Pedagogija">
+        <item>Predskolški odgoj</item>
+        <item>Razredna nastava</item>
+        <item>Kultura življenja i tehnički odgoj</item>
+        <item>Edukacija i rehabilitacija</item>
+    </string-array>
+
+    <string-array name="Poljopr">
+        <item>Odsjek za biljnu proizvodnju</item>
+        <item>Odsjek za Zootehniku</item>
+        <item>Odsjek za ekonomiku poljoprivrede i prehrambene industrije</item>
+        <item>Odsjek za prehrmbene tehnologije</item>
+    </string-array>
+
+
+    <string-array name="Pravnici">
+        <item>Jedinstveni studiji</item>
+    </string-array>
+
+    <string-array name="PMF">
+        <item>Odsjek za biologiju</item>
+        <item>Odsjek za fiziku</item>
+        <item>Odsjek za hemiju</item>
+        <item>Odsjek za geografiju</item>
+        <item>Odsjek za matematiku</item>
+    </string-array>
+
+    <string-array name="Stomatologija">
+        <item>Jedinstven studij</item>
+    </string-array>
+
+    <string-array name="Sumari">
+        <item>Odsjek šumarstva</item>
+        <item>Odsjek hortikulture</item>
+    </string-array>
+
+
+    <string-array name="Veterina">
+        <item>Jedinstveni studij</item>
+    </string-array>
+
+    <string-array name="Zdravstveni">
+        <item>Studij fizikalne terapije</item>
+        <item>Studij laboratorijskih tehnologija</item>
+        <item>Studij radioloških tehnologija</item>
+        <item>Studij zdravlja i ekologije/Sanitarnog inzinjerstva</item>
+        <item>Studij zdravstvene njege i terapije/Zdravstvene njege</item>
+        <item>Studij babičarstva/Primaljstva</item>
+        <item>Studij zdravstvenog nutricionizma i dijetetike</item>
+    </string-array>
+
+    <string-array name="beta">
+        <item>BETA TESTERI</item>
+    </string-array>
+
+    <string name="title_activity_test">TestActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Kuca</string>
+    <string name="menu_gallery">Chataj</string>
+    <string name="menu_slideshow">Opcije</string>
+</resources>

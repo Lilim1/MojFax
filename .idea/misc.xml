@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/User/Desktop/MojFax/app/src/main/res/drawable/button_rounded.xml" value="0.37864583333333335" />
+        <entry key="..\:/Users/User/Desktop/MojFax/app/src/main/res/drawable/gradient1.xml" value="0.37864583333333335" />
+        <entry key="..\:/Users/User/Desktop/MojFax/app/src/main/res/drawable/gradient2.xml" value="0.37864583333333335" />
+        <entry key="..\:/Users/User/Desktop/MojFax/app/src/main/res/drawable/gradient3.xml" value="0.37864583333333335" />
+        <entry key="..\:/Users/User/Desktop/MojFax/app/src/main/res/layout/activity_after_registation2.xml" value="0.1762917933130699" />
+        <entry key="..\:/Users/User/Desktop/MojFax/app/src/main/res/layout/activity_after_registration.xml" value="0.24094202898550723" />
+        <entry key="..\:/Users/User/Desktop/MojFax/app/src/main/res/layout/activity_chat1.xml" value="0.1762917933130699" />
+        <entry key="..\:/Users/User/Desktop/MojFax/app/src/main/res/layout/activity_home.xml" value="0.1762917933130699" />
+        <entry key="..\:/Users/User/Desktop/MojFax/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/User/Desktop/MojFax/app/src/main/res/layout/activity_medju.xml" value="0.24094202898550723" />
+        <entry key="..\:/Users/User/Desktop/MojFax/app/src/main/res/layout/activity_nastavak.xml" value="0.24094202898550723" />
+        <entry key="..\:/Users/User/Desktop/MojFax/app/src/main/res/layout/activity_no_fakultet.xml" value="0.24094202898550723" />
+        <entry key="..\:/Users/User/Desktop/MojFax/app/src/main/res/layout/activity_obavijesti.xml" value="0.24094202898550723" />
+        <entry key="..\:/Users/User/Desktop/MojFax/app/src/main/res/layout/activity_prije_mjenjanja_sifre.xml" value="0.24094202898550723" />
+        <entry key="..\:/Users/User/Desktop/MojFax/app/src/main/res/layout/activity_register.xml" value="0.24094202898550723" />
+        <entry key="..\:/Users/User/Desktop/MojFax/app/src/main/res/layout/activity_sifra.xml" value="0.24094202898550723" />
+        <entry key="..\:/Users/User/Desktop/MojFax/app/src/main/res/layout/activity_test.xml" value="0.24094202898550723" />
+        <entry key="..\:/Users/User/Desktop/MojFax/app/src/main/res/layout/app_bar_main.xml" value="0.24094202898550723" />
+        <entry key="..\:/Users/User/Desktop/MojFax/app/src/main/res/layout/content_main.xml" value="0.24094202898550723" />
+        <entry key="..\:/Users/User/Desktop/MojFax/app/src/main/res/layout/fragment_favorites.xml" value="0.24094202898550723" />
+        <entry key="..\:/Users/User/Desktop/MojFax/app/src/main/res/layout/fragment_gallery.xml" value="0.24094202898550723" />
+        <entry key="..\:/Users/User/Desktop/MojFax/app/src/main/res/layout/fragment_home.xml" value="0.24094202898550723" />
+        <entry key="..\:/Users/User/Desktop/MojFax/app/src/main/res/layout/fragment_search.xml" value="0.24094202898550723" />
+        <entry key="..\:/Users/User/Desktop/MojFax/app/src/main/res/layout/fragment_slideshow.xml" value="0.24094202898550723" />
+        <entry key="..\:/Users/User/Desktop/MojFax/app/src/main/res/layout/item_message.xml" value="0.24094202898550723" />
+        <entry key="..\:/Users/User/Desktop/MojFax/app/src/main/res/layout/item_obavijesti.xml" value="0.24094202898550723" />
+        <entry key="..\:/Users/User/Desktop/MojFax/app/src/main/res/layout/nav_header_main.xml" value="0.24094202898550723" />
+        <entry key="..\:/Users/User/Desktop/MojFax/app/src/main/res/layout/testing123.xml" value="0.24094202898550723" />
+        <entry key="..\:/Users/User/Desktop/MojFax/app/src/main/res/layout/testscreentext.xml" value="0.24094202898550723" />
+        <entry key="..\:/Users/User/Desktop/MojFax/app/src/main/res/layout/their_message.xml" value="0.24094202898550723" />
+        <entry key="..\:/Users/User/Desktop/MojFax/app/src/main/res/menu/activity_main_drawer.xml" value="0.3625" />
+        <entry key="..\:/Users/User/Desktop/MojFax/app/src/main/res/menu/bottom_navigation.xml" value="0.3625" />
+        <entry key="..\:/Users/User/Desktop/MojFax/app/src/main/res/menu/main_menu.xml" value="0.3625" />
+        <entry key="..\:/Users/User/Desktop/MojFax/app/src/main/res/menu/test.xml" value="0.3625" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

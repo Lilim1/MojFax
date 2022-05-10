@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "896031753049",
+    "project_id": "mojfax-69efe",
+    "storage_bucket": "mojfax-69efe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:896031753049:android:a9757eb6699ed7ac794248",
+        "android_client_info": {
+          "package_name": "com.example.mojfax"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "896031753049-orkcs6f2lv4cntve7t8ajco99l1d9jf1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mojfax",
+            "certificate_hash": "2e70c23d8f22c5a01473b2b5d182ee6fa89fbed7"
+          }
+        },
+        {
+          "client_id": "896031753049-r6mpo99dja5o5f1osqarua6vvgc70alp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBE7Oacsu5fzmn5ADxj7EPsLLuVx4HlyBM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "896031753049-r6mpo99dja5o5f1osqarua6vvgc70alp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
